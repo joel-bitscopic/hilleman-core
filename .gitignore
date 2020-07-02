@@ -1,0 +1,15 @@
+.vs
+bin
+obj
+
+hilleman/bin
+hilleman/obj
+hilleman-test/bin
+hilleman-test/obj
+
+hilleman-core/bin
+hilleman-core/obj
+hilleman-core-test/bin
+hilleman-core-test/obj
+
+ReflectedSchemas

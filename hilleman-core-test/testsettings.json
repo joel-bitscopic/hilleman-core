@@ -1,0 +1,14 @@
+{
+  "MyConfigDatabaseProvider": "SQLite",
+  "MyConfigDatabaseConnectionString": "DataSource=C:\\workspace\\github\\hilleman-core\\resources\\db\\hilleman.sqlite;Version=3;Pooling=True;Max Pool Size=8;",
+
+
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ]
+}
