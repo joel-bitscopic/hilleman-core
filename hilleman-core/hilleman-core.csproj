@@ -32,7 +32,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="src\lib\" />
     <Folder Include="web\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
