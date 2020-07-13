@@ -72,7 +72,7 @@ namespace com.bitscopic.hilleman.core.lib
 
         public SourceSystem getSourceSystemFromConfig(String id)
         {
-            SourceSystemTable sstFromConfig = SerializerUtils.deserialize<SourceSystemTable>(MyConfigurationManager.getValue("SourceSystemTable"));
+            SourceSystemTable sstFromConfig = new SourceSystemTable(MyConfigurationManager.getValue("SourceSystemTable"));
             return sstFromConfig.getSourceSystem(id);
         }
     }
